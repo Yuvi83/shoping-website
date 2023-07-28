@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1616;
+}
+
+ul{
+list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#main{
+    padding: 30px 50px ;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: 1400px;
+    background-position: right bottom;
+    background-image: url(./building.png);
+    background-repeat: no-repeat;
+    background-color:rgba(0,0,0,0.5);
+}
+
+nav{
+    display: flex;justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family:"popins";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: gray;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.menu{
+    display: flex;
+}
+.menu li a{
+
+    padding: 10px 15px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.logo{
+    font-size: 25px;
+    font-weight:bold ;
+    color: #929292;
+    font-family:'poppins';
+    margin: 10px 20px;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    
+}
+
+.name{
+    font-family: sans-serif;
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+
+}
+ .name p{
+    color: black;
+    font-size: 15px;
+
+ }
+
+ .name h1{
+    font-family: 'poppins';
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 3px;
+    color: #292929;
+
+ }
+
+ .resume-btn{
+    width: 200px;
+    height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #292929;
+color: #ffffff;
+    border-radius: 10px;
+
+ }
+
+ .resume-btn:hover{
+     color: #131313;
+     transition: all ease 0.5s;
+ }
+
+
+
+ .black-line{
+    width: 50%;
+    height: 15%;
+    align-self: end;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 0px;
+    left: -3%;
+    border-right: 1px solid rgba(41,41,41,0.3);
+
+ }
+
+ .social{
+    position: inherit;
+    left: 50px;
+    bottom: 150px;
+    display: flex;
+
+ }
+
+ .social a{
+    margin: 6px 12px;
+ }
+
+ .social i{
+    font-size: 14px;
+    color: red;
+ }
+
+ .social a:hover i{
+    color: blue;
+    transition: all ease 0.5s;
+
+ }
